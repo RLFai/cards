@@ -1,0 +1,150 @@
+:root {
+  color-scheme: light;
+}
+html {
+  color-scheme: light;
+  background: #ffffff;
+  color: #192a2c;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #192a2c;
+  font-family: "Avenir Next", Avenir, "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.45;
+  -webkit-text-size-adjust: 100%;
+}
+.card {
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 24px 16px 40px;
+  overflow-wrap: anywhere;
+}
+.header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-bottom: 4px solid #f45200;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+}
+.logo {
+  height: 56px;
+  width: auto;
+  display: block;
+}
+.firm {
+  margin: 0;
+  font-weight: 600;
+  color: #192a2c;
+}
+.photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 16px;
+}
+.name {
+  margin: 0 0 4px;
+  text-align: center;
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  font-size: 1.75rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: #192a2c;
+}
+.title {
+  margin: 0 0 16px;
+  text-align: center;
+  color: #192a2c;
+}
+.notice {
+  margin: 0 0 16px;
+  text-align: center;
+  color: #192a2c;
+}
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 0 20px;
+}
+a.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 48px;
+  padding: 12px 16px;
+  border: 2px solid #192a2c;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #192a2c;
+  font: 600 1rem/1.2 "Avenir Next", Avenir, "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-align: center;
+  text-decoration: none;
+}
+a.btn:visited {
+  color: #192a2c;
+}
+a.btn.primary,
+a.btn.primary:visited {
+  background: #b23a06;
+  border-color: #b23a06;
+  color: #ffffff;
+}
+a.btn.primary:hover,
+a.btn.primary:focus {
+  background: #8f2f05;
+  border-color: #8f2f05;
+  color: #ffffff;
+}
+a:focus-visible {
+  outline: 3px solid #192a2c;
+  outline-offset: 2px;
+}
+dl { margin: 0; }
+dt {
+  margin-top: 12px;
+  font-weight: 700;
+  color: #192a2c;
+}
+dd {
+  margin: 0;
+  color: #192a2c;
+  font-size: 1rem;
+}
+.footer {
+  margin-top: 28px;
+  padding-top: 12px;
+  border-top: 1px solid #192a2c;
+  color: #192a2c;
+  font-size: max(1rem, 15px);
+  font-weight: 400;
+}
+.footer p {
+  margin: 0;
+  color: #192a2c;
+  font-size: max(1rem, 15px);
+  font-weight: 400;
+}
+.footer .referral {
+  color: #192a2c;
+  font-size: max(1rem, 15px);
+  font-weight: 400;
+}
+.footer a,
+.footer a:visited {
+  color: #192a2c;
+}
+.not-attorney {
+  margin: 0 0 16px;
+  text-align: center;
+  color: #192a2c;
+  font-weight: 400;
+  font-size: max(1rem, 15px);
+}
